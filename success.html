@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Success</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding-top: 60px;
+    }
+    h2 {
+      color: #0077cc;
+    }
+    a {
+      display: inline-block;
+      margin: 20px;
+      padding: 10px 20px;
+      background-color: #00aa88;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    a:hover {
+      background-color: #008877;
+    }
+  </style>
+</head>
+<body>
+  <h2>✅ File {{ action }} successfully!</h2>
+  <p><strong>{{ filename }}</strong></p>
+  <a href="/download/{{ filename }}">⬇ Download File</a>
+  <a href="/">🏠 Back to Home</a>
+</body>
+</html>
